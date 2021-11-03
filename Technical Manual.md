@@ -12,7 +12,6 @@ Quantile mapping approach has been used due to its simplicity, effectiveness and
 
 Table 1 Distributions and equations used for bias correction of different climatic variables
 ![Picture12](Screenshots/Picture12.png)
-**Note**: where x is climatic variable, $\bar{x}_{ms.corr}$ is bias corrected model simulated data; to categories between the wet and the dry day threshold value x_th is used (day with precipitation greater than 1 mm is assumed to be a wet day); $F$ is CDF whereas $F^{-1}$ is its inverse. (o = observed, m = model, h = historical period, and s = simulation period). Here, the simulated period can either be historical or a future period.
 
 ### Climate Data Bias Corrector (CDBC): GUI (Graphical User Interface)
 CDBC tool has two separate tabs in its GUI for bias correction of historical (Figure 1) and future (Figure 2) data. Both the tabs are divided into three groups: 'Input', 'Output' and 'Variable/Distribution' for taking input, providing output folder location and proding the method for particular variable, respectively. To check the feasibility of tool, it provides an option to visualize the CDF plot which draws for the randomly select station/grid for all the months.
